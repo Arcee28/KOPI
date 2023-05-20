@@ -75,7 +75,7 @@ body{
     content: '';
     width: 0%;
     height: 2px;
-    background-color: blue;
+    background-color: brown;
     display: block;
     margin: auto;
     margin-top: 2px;
@@ -83,32 +83,48 @@ body{
 .collapse ul li a:hover::after{
     width: 100%;
 }
+
+/* .img-fluids{
+    width: 100%;
+    height: 70vh;
+    background-image: url(images/sample.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+  } */
+
 @media only screen and (min-width: 768px) and (max-width: 991px){
     .carousel-caption{
         bottom: 37px;
-}
+    }
     .carousel-caption p{
         width: 100%;
     }
+    .menucon{
+        border: 2px solid black;
+    }
+    
 }
 @media only screen and (max-width: 767px){
+
 .navbar-brand {
     font-size: 25px;
-}
+    }
 
 .navbar{
-    background-color: white;
-}
-}
+    background-color: whitesmoke;
+    }
+    
 .navbar-nav{
     text-align :center;
-}
+    }
 .carousel-caption{
     bottom: 25px;
-}
+    }
 .carousel-caption h5{
     font-size: 17px;
-}
+    }   
 .carousel-caption a{
     padding: 10px 15px;
     }
@@ -116,18 +132,50 @@ body{
     width: 100%;
     line-height: 1.6;
     font-size: 12px;
-}
+    }
 .img-fluids{
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
     margin-bottom: 25px;
-}
+    }
 .about-text h2{
     text-align: center;
+    }
+.card{
+    margin: auto;
+    width: 90%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    }
+    .menucon{
+        padding-top: 100px;
+    }
+    .h1{
+        text-align: center;
+        
+    }
+    .title{
+        text-align: center;
+    }
+    .link{
+        float: right;
+        text-decoration-line: none;
+        color: darkgrey;
+    }
+      /* mouse over link */
+      a:hover {
+        color: brown;
+      }
+      
+    .collapse ul li a:hover::after{
+        width: 20%;
+        height: .5px;
+    }
+.py-5{
+    background-color:  #964B00;
+    text-decoration:pink;
 }
 
-.img-fluids{
-    height: 30vh;
 }
