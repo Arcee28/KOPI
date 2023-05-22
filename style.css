@@ -60,12 +60,9 @@
     background-color:  #964B00;
     
 }
-<<<<<<< HEAD
-=======
 .about{
     padding-top: 100px;
 }
->>>>>>> 8b2f4f905171a2244a0cabe7037de19372a76533
 .menucon{
     padding-top: 100px;
     text-align: center;
@@ -93,7 +90,6 @@ width: 20%;
 .text{
     color: white;
 }
-<<<<<<< HEAD
 .body{
     background-color: #b79569;
 }
@@ -111,7 +107,7 @@ width: 20%;
         height: 2px;
     }
    
-=======
+
 .text
 
 .aboutimg{
@@ -133,7 +129,6 @@ width: 20%;
     width: auto;
     margin-bottom: 30px;
 }
->>>>>>> 8b2f4f905171a2244a0cabe7037de19372a76533
 
 @media only screen and (min-width: 768px) and (max-width: 991px){
      .carousel-caption{
