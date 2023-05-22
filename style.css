@@ -60,6 +60,12 @@
     background-color:  #964B00;
     
 }
+<<<<<<< HEAD
+=======
+.about{
+    padding-top: 100px;
+}
+>>>>>>> 8b2f4f905171a2244a0cabe7037de19372a76533
 .menucon{
     padding-top: 100px;
     text-align: center;
@@ -87,6 +93,7 @@ width: 20%;
 .text{
     color: white;
 }
+<<<<<<< HEAD
 .body{
     background-color: #b79569;
 }
@@ -104,6 +111,29 @@ width: 20%;
         height: 2px;
     }
    
+=======
+.text
+
+.aboutimg{
+    width: auto;
+}
+.img1{
+    height: 10%;
+    width: 100%;
+}
+.imgcard{
+    height: 80%;
+}
+.card{
+    height: 80%;
+    background-color: #977554;
+}
+.containers{
+    height: auto;
+    width: auto;
+    margin-bottom: 30px;
+}
+>>>>>>> 8b2f4f905171a2244a0cabe7037de19372a76533
 
 @media only screen and (min-width: 768px) and (max-width: 991px){
      .carousel-caption{
@@ -120,7 +150,22 @@ width: 20%;
         width: 60px;
         height: 2px;
     }
-
+    .imgcard{
+        height: 80%;
+    }
+    .containers{
+        height: auto;
+        width: auto;
+        padding-left: 60px;
+        padding-right: 60px;
+        margin-bottom: 30px;
+    }
+    
+    .card{
+        height: 80%;
+        background-color: #977554;
+    }
+    
 }
 @media only screen and (min-width: 992px){
     /* .logo{
@@ -155,7 +200,7 @@ width: 20%;
         width: auto;
         padding-left: 80px;
         padding-right: 80px;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
     
     .card{
