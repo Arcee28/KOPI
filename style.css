@@ -13,9 +13,6 @@
 .main h3 {
         color: whitesmoke   ;
     }
-.container a {
-        color: whitesmoke   ;
-    }
 .navbar-nav{
     text-align :center;
     }
@@ -42,6 +39,7 @@
     }
 .about-text h2{
     text-align: center;
+
     }
 .card{
     margin: auto;
@@ -60,18 +58,18 @@
       /*  */
 .py-5{
     background-color:  #964B00;
+    
 }
+<<<<<<< HEAD
+=======
 .about{
     padding-top: 100px;
 }
+>>>>>>> 8b2f4f905171a2244a0cabe7037de19372a76533
 .menucon{
     padding-top: 100px;
     text-align: center;
     color: #93673b;
-}
-.card{
-    width: 100%;
-    height: 100%;
 }
 .collapse a:hover{
     color: red
@@ -95,6 +93,25 @@ width: 20%;
 .text{
     color: white;
 }
+<<<<<<< HEAD
+.body{
+    background-color: #b79569;
+}
+.card{
+    height: 85%;
+    width: 85%;
+    background-color: #977554;
+}
+ a:hover {
+         color: #E5D3B3;
+      }
+      
+.collapse ul li a:hover::after{
+        width: 20%;
+        height: 2px;
+    }
+   
+=======
 .text
 
 .aboutimg{
@@ -116,6 +133,7 @@ width: 20%;
     width: auto;
     margin-bottom: 30px;
 }
+>>>>>>> 8b2f4f905171a2244a0cabe7037de19372a76533
 
 @media only screen and (min-width: 768px) and (max-width: 991px){
      .carousel-caption{
@@ -174,6 +192,8 @@ width: 20%;
     }
     .imgcard{
         height: 80%;
+        object-fit: cover ;
+        border-radius: 5px;
     }
     .containers{
         height: auto;
@@ -189,9 +209,6 @@ width: 20%;
     }
     .row{
         height: 590px;
-    }
-    .main{
-        background-color: ;
     }
     .body{
         background-color: #b79569;
