@@ -63,7 +63,7 @@
 .about{
     padding-top: 100px;
 }
-=======
+
 
 .about{
     padding-top: 100px;
@@ -121,6 +121,8 @@ width: 20%;
 }
 .imgcard{
     height: 80%;
+    object-fit: cover ;
+    border-radius: 5px;
 }
 .card{
     height: 80%;
