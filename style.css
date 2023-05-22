@@ -5,9 +5,17 @@
     font-size: 25px;
     }
 .navbar{
-    background-color: whitesmoke;
+    background-color: #977554;
     }
-    
+.container a {
+        color: whitesmoke   ;
+    }
+.main h3 {
+        color: whitesmoke   ;
+    }
+.container a {
+        color: whitesmoke   ;
+    }
 .navbar-nav{
     text-align :center;
     }
@@ -52,12 +60,16 @@
       /*  */
 .py-5{
     background-color:  #964B00;
-    text-decoration:pink;
 }
 
 .menucon{
     padding-top: 100px;
     text-align: center;
+    color: #93673b;
+}
+.card{
+    width: 100%;
+    height: 100%;
 }
 .collapse a:hover{
     color: red
@@ -78,6 +90,11 @@ width: 20%;
 .w-100{
     height: 100vh;
 }
+.text{
+    color: white;
+}
+.text
+
 
 @media only screen and (min-width: 768px) and (max-width: 991px){
      .carousel-caption{
@@ -85,9 +102,6 @@ width: 20%;
     }
     .carousel-caption p{
         width: 100%;
-    }
-    .menucon{
-        border: 2px solid black;
     }
     a:hover {
         color: brown;
@@ -115,12 +129,35 @@ width: 20%;
     }
 
     a:hover {
-        color: brown;
+        color: #E5D3B3;
       }
       
     .collapse ul li a:hover::after{
         width: 100%;
         height: 2px;
     }
+    .imgcard{
+        height: 80%;
+    }
+    .containers{
+        height: auto;
+        width: auto;
+        padding-left: 80px;
+        padding-right: 80px;
+        margin-bottom: 30px;
+    }
     
+    .card{
+        height: 80%;
+        background-color: #977554;
+    }
+    .row{
+        height: 590px;
+    }
+    .main{
+        background-color: ;
+    }
+    .body{
+        background-color: #b79569;
+    }
 }
