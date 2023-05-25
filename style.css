@@ -62,6 +62,7 @@
 
 .title {
     text-align: center;
+    font-size: 40px;
 }
 
 .link {
@@ -69,17 +70,22 @@
     text-decoration-line: none;
     color: darkgrey;
 }
+
 .menucon {
     padding-top: 100px;
     text-align: center;
     color: #93673b;
 }
+
 .collapse a:hover {
     color: white;
 }
-.h1{
+
+.h1 {
+
     font-weight: bold;
 }
+
 .collapse ul li a:hover:after {
     content: '';
     width: 0%;
@@ -91,9 +97,9 @@
 }
 
 .collapse ul li a:hover::after {
-     width: 20%;
-     height: 1px;
- } 
+    width: 20%;
+    height: 1px;
+}
 
 .w-100 {
     height: 100vh;
@@ -105,7 +111,7 @@
 
 .body {
     background-color: #b79569;
-    
+
 }
 
 .card {
@@ -143,7 +149,8 @@ a:hover {
 
 /* contact */
 .masthead {
-    background-size: cover;
+    background-size:contain;
+    background-repeat: no-repeat;
     height: 100vh;
     position: relative;
     color: white;
@@ -152,35 +159,29 @@ a:hover {
     text-align: center;
 }
 
-.textcon{
+.textcon {
     margin-top: 15%;
 }
-.textcon p{
+
+.textcon p {
     font-size: 25px;
 }
-.textcon h1{
+
+.textcon h1 {
     font-size: 35px;
 }
-.textcon h2{
+
+.textcon h2 {
     font-size: 75px;
 
 }
+
 .color-overlay {
     font-family: 'Times New Roman', Times, serif;
     position: absolute;
     width: 100%;
     background-color: rgba(0, 0, 0, .2);
 }
-
-.mastheadservices {
-    background-size: cover;
-    min-height: 85vh;
-    position: relative;
-    color: white;
-    text-shadow: 2px, 2px, 2px rgba(0, 0, 0, .2);
-    font-size: 1rem;
-    
-  }
 .coffee1 {
     width: 100%;
     height: 50%;
@@ -200,176 +201,349 @@ a:hover {
     color: #E5D3B3;
 }
 
-.footer{
-      text-align: center;
-      background-color: black; 
-      color: white;
+.footer {
+    text-align: center;
+    background-color: black;
+    color: white;
 }
+
 /* about */
-.about-1{
-  margin: 30px;
-  padding: 5px;
-  padding-top: 90px;
+.about-1 {
+    margin: 30px;
+    padding: 5px;
+    padding-top: 90px;
 }
-.about-1 h1{
-  text-align:center;
-  color: black;
-  font-weight: bold;
+
+.about-1 h1 {
+    text-align: center;
+    color: black;
+    font-weight: bold;
 }
-.about-1 p{
-  text-align: center;
-  padding: 3px;
-  color: black;
+
+.about-1 p {
+    text-align: center;
+    padding: 3px;
+    color: black;
 }
-.about-item{
-  margin-bottom: 50px;
-  padding-bottom: 50px;
-  padding-top: 30px;
-  background-color: lightgray;
-  padding: 80px,30px;
-  box-shadow: 0 0 9px rgba(0,0,0 .6);
-  margin-top: 50px;
+
+.about-item {
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    background-color: #977554;
+    padding: 80px, 30px;
+    box-shadow: 0 0 9px rgba(0, 0, 0 .6);
+    margin-top: 50px;
 }
-.about-item i{
-  font-size: 43px;
-  margin: 0;
+
+.about-item i {
+    font-size: 43px;
+    margin: 0;
 }
-.about-item h3{
-  font-size: 25px;
-  margin-bottom: 10px;
+
+.about-item h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
 }
-.about-item hr{
-  width: 46px;
-  height: 3px;
-  background-color: #5fbff9;
-  margin: 0 auto;
-  border:none;
+
+.about-item hr {
+    width: 46px;
+    height: 3px;
+    background-color: #8b4411;
+    margin: 0 auto;
+    border: none;
 }
-.about-item p{
-  margin-top: 20px;
-  margin: 20px;
-  padding-bottom: 18px;
-  height: 100px;
+
+.about-item p {
+    margin-top: 20px;
+    margin: 20px;
+    padding-bottom: 20px;
+    height: 110px;
 }
-.about-item:hover{
-  background-color: #5fbff9;
+
+.about-item:hover {
+    background-color: #8b4411;
 }
+
 .about-item:hover i,
 .about-item:hover h3,
-.about-item:hover p{
-  color: #fff;
+.about-item:hover p {
+    color: #fff;
 }
-.about-item:hover hr{
-  background-color: #fff;
+
+.about-item:hover hr {
+    background-color: #fff;
 }
-.about-item:hover i{
-  transform: translateY(-20px);
+
+.about-item:hover i {
+    transform: translateY(-20px);
 }
+
 .about-item:hover i,
 .about-item:hover h3,
-.about-item:hover hr{
-  transition: all 400ms ease-in-out;
+.about-item:hover hr {
+    transition: all 400ms ease-in-out;
 }
-.contain{
-  padding-left: 100px;
-  padding-right: 100px;
+
+.contain {
+    padding-left: 50px;
+    padding-right: 50px;
 }
-.about-1{
-  padding-left: 100px;
-  padding-right: 100px;
-  margin: 50px;
+
+.about-1 {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 50px;
 
 }
-.about-1 p{
+
+.about-1 p {
+    font-size: 15px;
+}
+
+/* services */
+.mastheadservices {
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 20vh;
+    color: white;
+    text-shadow: 2px, 2px, 2px rgba(0, 0, 0, .2);
+    font-size:1rem;
+}
+.rowService {
+    width: 80%;
+    max-width: 1170px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px 30px;
+}
+
+.rowService .left {
+    overflow: hidden;
+}
+
+.rowService .left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.rowService .right {
+    display: flex;
+    align-items: center;
+}
+
+.rowService .right .content {
+    
+    padding-left: 20px;
+}
+.rowService .right .content p{
+    font-size: 20px;
+    color: white;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
+/* 2nd */
+.rowService .left1 {
+    overflow: hidden;
+}
+.rowService .left1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.rowService .right1 {
+    display: flex;
+    align-items: center;
+}
+
+.rowService .right1 .content1 {
+    
+    padding-right: 20px;
+}
+.rowService .right1 .content1p{
+    font-size: 20px;
+    color: white;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
+/* 3rd */
+.rowService .left2 {
+    overflow: hidden;
+}
+.rowService .left2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.rowService .right2 {
+    display: flex;
+    align-items: center;
+}
+
+.rowService .right .content {
+    
+    padding-right: 20px;
+}
+.rowService .right .content p{
+    font-size: 20px;
+    color: white;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
+.services-text{
+     font-size: 10px;
+     margin-left: 10%;
+}
+.rowService .right .content{
+    padding-left: 0;
+}
+.rowService {
+    width: 90%;
+    grid-template-columns: 1fr;
+}
+.services-text p{
+    font-size: 10px;
+}
+.mastheadservices{
+    min-height: 85vh;
+}
+.contentserv{
+    font-size: 12px;
+    color: white;
+}
+.btn{
+    background-color:#977554;
+    color: lightgray;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
     font-size: 20px;
 }
+.btn:hover{
+    background-color: #977554;
+    color: black;
+}
+
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-        .carousel-caption {
-            bottom: 37px;
-        }
-
-        .carousel-caption p {
-            width: 100%;
-        }
-
-        a:hover {
-            color: brown;
-        }
-
-        .collapse ul li a:hover::after {
-            width: 60px;
-            height:1px;
-        }
-
-        .imgcard {
-            height: 80%;
-            object-fit: cover;
-            border-radius: 5px;
-        }
-
-        .containers {
-            height: auto;
-            width: auto;
-            padding-left: 50px;
-            padding-right: 50px;
-            margin-bottom: 20px;
-        }
-
-        .card {
-            height: 80%;
-            background-color: #977554;
-        }
-        .masthead{
-            min-height: 40vh;
-            min-width: 50vh;
-         }
-         .about-1 p{
-            font-size: 18px;
-        }
-        .contain{
-            padding-left: 50px;
-            padding-right: 50px;
-          }
-        
+    .carousel-caption {
+        bottom: 37px;
     }
 
-    @media only screen and (min-width: 992px) {
- 
-    .containers{
+    .carousel-caption p {
+        width: 100%;
+    }
+
+    .collapse ul li a:hover::after {
+        width: 60px;
+        height: 1px;
+    }
+
+    .imgcard {
+        height: 80%;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+    .title {
+        text-align: center;
+        font-size: 30px;
+    }
+    .containers {
+        height: auto;
+        width: auto;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-bottom: 20px;
+    }
+
+    .card {
+        height: 80%;
+        background-color: #977554;
+    }
+
+    .masthead {
+        min-height: 40vh;
+        min-width: 50vh;
+    }
+
+    .about-1 p {
+        font-size: 18px;
+    }
+    .about-item p {
+        margin-top: 20px;
+        margin: 20px;
+        padding-bottom: 20px;
+        height: 150px;
+    }
+
+    .contain {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+/* service */
+    .rowService .right .content{
+        padding-left: 0;
+    }
+    .rowService {
+        width: 90%;
+        grid-template-columns: 1fr;
+    }
+    .services-text{
+        font-size: 20px;
+    }
+    .mastheadservices{
+        min-height: 85vh;
+    }
+}
+@media only screen and (min-width: 992px) {
+
+    .containers {
         height: auto;
         width: auto;
         padding-left: 80px;
         padding-right: 80px;
         margin-bottom: 20px;
     }
+
     .collapse ul li a:hover::after {
         width: 100%;
         height: 2px;
     }
-    .card{
+
+    .card {
         height: 80%;
         background-color: #977554;
     }
-   
-    .body{
+    .body {
         background-color: #b79569;
     }
-    .about-item p{
+
+    .about-item p {
         margin-top: 20px;
         margin: 20px;
         padding-bottom: 18px;
         height: 100px;
         font-size: 20px;
-      }
-      .about-item{
-        margin-bottom: 50px;
-        padding-bottom: 150px;
+    }
+
+    .about-item {
+        margin-bottom: 100px;
+        padding-bottom: 200px;
         padding-top: 30px;
-        padding: 80px,30px;
-        box-shadow: 0 0 9px rgba(0,0,0 .6);
+        padding: 80px, 30px;
+        box-shadow: 0 0 9px rgba(0, 0, 0 .6);
         margin-top: 50px;
-      }
-    
+    }
+    .services-text h2{
+        font-size: 10px;
+    }
+    .about-1 {
+        padding-left: 120px;
+        padding-right: 120px;
+        margin: 50px;
+    }
 }
-/* services */
