@@ -148,8 +148,20 @@ a:hover {
 }
 
 /* contact */
+#contact {
+    background-image: url(./images/coffeeMachine1.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    display: grid;
+    place-content: center;
+    color: #fff;
+    text-align: center;
+}
+
 .masthead {
-    background-size:contain;
+    background-size: contain;
     background-repeat: no-repeat;
     height: 100vh;
     position: relative;
@@ -159,29 +171,12 @@ a:hover {
     text-align: center;
 }
 
-.textcon {
-    margin-top: 15%;
-}
-
-.textcon p {
-    font-size: 25px;
-}
-
-.textcon h1 {
-    font-size: 35px;
-}
-
-.textcon h2 {
-    font-size: 75px;
-
-}
-
 .color-overlay {
     font-family: 'Times New Roman', Times, serif;
-    position: absolute;
-    width: 100%;
+    width: px;
     background-color: rgba(0, 0, 0, .2);
 }
+
 .coffee1 {
     width: 100%;
     height: 50%;
@@ -302,120 +297,52 @@ a:hover {
 }
 
 /* services */
-.mastheadservices {
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding-top: 20vh;
+.ServText {
+    font-size: 100px;
+    text-align: center;
     color: white;
-    text-shadow: 2px, 2px, 2px rgba(0, 0, 0, .2);
-    font-size:1rem;
+    padding-top: 70px;
 }
-.rowService {
+.rowservice {
+    margin-left: 120px;
+    margin-bottom: 50px;
     width: 80%;
     max-width: 1170px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 50px 30px;
+
 }
 
-.rowService .left {
+.rowservice .leftPic {
     overflow: hidden;
 }
 
-.rowService .left img {
+.rowservice .leftPic img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    margin-bottom: 50px;
 }
 
-.rowService .right {
+
+.rowservice .rightText {
     display: flex;
-    align-items: center;
+    align-items: centers;
 }
 
-.rowService .right .content {
-    
-    padding-left: 20px;
-}
-.rowService .right .content p{
+.rowservice .rightText .rightContent {
     font-size: 20px;
-    color: white;
-    line-height: 30px;
+    line-height: 20px;
     padding-bottom: 15px;
-}
-/* 2nd */
-.rowService .left1 {
-    overflow: hidden;
-}
-.rowService .left1 img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+
 }
 
-.rowService .right1 {
-    display: flex;
-    align-items: center;
-}
 
-.rowService .right1 .content1 {
-    
-    padding-right: 20px;
-}
-.rowService .right1 .content1p{
-    font-size: 20px;
-    color: white;
-    line-height: 30px;
-    padding-bottom: 15px;
-}
-/* 3rd */
-.rowService .left2 {
-    overflow: hidden;
-}
-.rowService .left2 img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
 
-.rowService .right2 {
-    display: flex;
-    align-items: center;
-}
-
-.rowService .right .content {
-    
-    padding-right: 20px;
-}
-.rowService .right .content p{
-    font-size: 20px;
-    color: white;
-    line-height: 30px;
-    padding-bottom: 15px;
-}
-.services-text{
-     font-size: 10px;
-     margin-left: 10%;
-}
-.rowService .right .content{
-    padding-left: 0;
-}
-.rowService {
-    width: 90%;
-    grid-template-columns: 1fr;
-}
-.services-text p{
-    font-size: 10px;
-}
-.mastheadservices{
-    min-height: 85vh;
-}
-.contentserv{
-    font-size: 12px;
-    color: white;
-}
-.btn{
-    background-color:#977554;
+/* button */
+.btn {
+    background-color: #977554;
     color: lightgray;
     padding-left: 20px;
     padding-right: 20px;
@@ -423,13 +350,18 @@ a:hover {
     padding-bottom: 3px;
     font-size: 20px;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: #977554;
     color: black;
 }
-
+.ServText {
+    font-size: 70px;
+    color: #93673b;   
+}
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
     .carousel-caption {
         bottom: 37px;
     }
@@ -448,10 +380,12 @@ a:hover {
         object-fit: cover;
         border-radius: 5px;
     }
+
     .title {
         text-align: center;
         font-size: 30px;
     }
+
     .containers {
         height: auto;
         width: auto;
@@ -473,6 +407,7 @@ a:hover {
     .about-1 p {
         font-size: 18px;
     }
+
     .about-item p {
         margin-top: 20px;
         margin: 20px;
@@ -484,21 +419,27 @@ a:hover {
         padding-left: 50px;
         padding-right: 50px;
     }
-/* service */
-    .rowService .right .content{
-        padding-left: 0;
+
+    /* service */
+    .ServText {
+        font-size: 70px;
+        color: #93673b;   
     }
-    .rowService {
+
+    .rowservice .rightText .rightContent {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .rowservice {
+        padding-right: 150px;
         width: 90%;
         grid-template-columns: 1fr;
     }
-    .services-text{
-        font-size: 20px;
-    }
-    .mastheadservices{
-        min-height: 85vh;
-    }
+
+
 }
+
 @media only screen and (min-width: 992px) {
 
     .containers {
@@ -518,6 +459,7 @@ a:hover {
         height: 80%;
         background-color: #977554;
     }
+
     .body {
         background-color: #b79569;
     }
@@ -538,12 +480,17 @@ a:hover {
         box-shadow: 0 0 9px rgba(0, 0, 0 .6);
         margin-top: 50px;
     }
-    .services-text h2{
+
+    .services-text h2 {
         font-size: 10px;
     }
+
     .about-1 {
         padding-left: 120px;
         padding-right: 120px;
         margin: 50px;
     }
+
+    /* service */
+    
 }
